@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="EulerProject">
-      <UniqueIdentifier>{3282cd5c-1c2c-4127-83f7-305a9325a3e7}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -28,18 +25,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MaximixArrangements336.h">
-      <Filter>EulerProject</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeRound.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CppTasks.cpp">
+    <ClCompile Include="Cpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MaximixArrangements336.cpp">
-      <Filter>EulerProject</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeRound.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

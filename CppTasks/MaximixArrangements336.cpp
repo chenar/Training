@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "MaximixArrangements336.h"
 #include <iostream>
 #include <cmath>
