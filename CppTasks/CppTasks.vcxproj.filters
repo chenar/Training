@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="EulerProject">
+      <UniqueIdentifier>{6f21139c-e15c-4b67-a972-c74f774c62b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlassDoor">
+      <UniqueIdentifier>{cdaf0740-abfb-46d3-b5c8-0e3706f6a963}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -25,24 +31,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MaximixArrangements336.h">
-      <Filter>Header Files</Filter>
+      <Filter>EulerProject</Filter>
     </ClInclude>
     <ClInclude Include="TreeRound.h">
-      <Filter>Header Files</Filter>
+      <Filter>GlassDoor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Cpp.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MaximixArrangements336.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>EulerProject</Filter>
     </ClCompile>
     <ClCompile Include="TreeRound.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>GlassDoor</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

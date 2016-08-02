@@ -154,7 +154,7 @@
     <ClInclude Include="TreeRound.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Cpp.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="MaximixArrangements336.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

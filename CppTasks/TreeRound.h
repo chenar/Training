@@ -1,5 +1,7 @@
 #pragma once
 #include <memory>
+#include <vector>
+#include <queue>
 
 class TreeRound
 {
@@ -15,5 +17,6 @@ class TreeRound
 public:
 	TreeRound();
 	~TreeRound();
+	void RoundTree(std::shared_ptr<Node> head, int depth, std::vector<std::pair<int, int>>& queue );
 };
 
