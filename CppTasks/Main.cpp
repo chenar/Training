@@ -4,12 +4,19 @@
 #include "stdafx.h"
 #include "TreeRound.h"
 #include <iostream>
+#include <list>
+#include "CombinationSumIV377.h"
+
+class CombinationSumIV377;
+using namespace std;
+
 
 
 int main()
 {
-	TreeRound *t = new TreeRound();
-	delete t;
+	CombinationSumIV377 t;
+	vector<int> test{ 4,2,1 };
+	t.combinationSum4(test, 32);
 	getchar();
     return 0;
 }

@@ -19,6 +19,15 @@
     <Filter Include="GlassDoor">
       <UniqueIdentifier>{cdaf0740-abfb-46d3-b5c8-0e3706f6a963}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CrackingTheCoding">
+      <UniqueIdentifier>{7c43fbb6-3743-4914-9a76-53044e4facc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LeetCode">
+      <UniqueIdentifier>{06621ca5-3d6a-4e80-a552-d5cc838ffe92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{6dafbefe-071b-4b9a-ac54-a30a5a08495d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -36,6 +45,15 @@
     <ClInclude Include="TreeRound.h">
       <Filter>GlassDoor</Filter>
     </ClInclude>
+    <ClInclude Include="QSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinationSumIV377.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KthSmallest378.h">
+      <Filter>LeetCode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -49,6 +67,15 @@
     </ClCompile>
     <ClCompile Include="TreeRound.cpp">
       <Filter>GlassDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="QSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationSumIV377.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KthSmallest378.cpp">
+      <Filter>LeetCode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
